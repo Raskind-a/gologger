@@ -1,0 +1,20 @@
+{
+    "name": "agrocargo/logger",
+    "description": "logger library for opensearch",
+    "type": "library",
+    "require": {
+        "monolog/monolog": "^3.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Monolog\\": "vendor/monolog/monolog/src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
